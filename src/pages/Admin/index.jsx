@@ -4,7 +4,7 @@ import './admin.css'
 import { auth, db } from '../../firebaseconnection'
 import { signOut } from 'firebase/auth'
 
-import { addDoc, getDocs, collection, deleteDoc, updateDoc, doc, onSnapshot, query, orderBy, where } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, updateDoc, doc, onSnapshot, query, orderBy, where } from 'firebase/firestore'
 
 const Admin = () => {
 
